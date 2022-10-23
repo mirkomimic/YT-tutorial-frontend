@@ -17,17 +17,17 @@
     <section class="header">
       <nav>
         <a href="index.html"><img src="img/logo.png" alt="" /></a>
-        <div class="nav-links">
-          <i class="fa fa-times"></i>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">COURSE</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="#about-us">ABOUT</a></li>
+            <li><a href="#course">COURSE</a></li>
+            <li><a href="#campus">CAMPUS</a></li>
+            <li><a href="#facilities">FACILITIES</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <div class="text-box">
         <h1>World's Biggest University</h1>
@@ -38,5 +38,149 @@
         <a href="" class="hero-btn">Visit Us To Know More</a>
       </div>
     </section>
+    <div id="margina">mirko</div>
+    <!-- course -->
+
+    <section class="course" id="course">
+      <h1>Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, numquam.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quia, adipisci repellendus doloribus nam recusandae.</p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quia, adipisci repellendus doloribus nam recusandae.</p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quia, adipisci repellendus doloribus nam recusandae.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- campus -->
+    <section class="campus" id="campus">
+      <h1>Our Globa Campus</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, distinctio.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="img/london.png" alt="" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="img/newyork.png" alt="" />
+          <div class="layer">
+            <h3>NEY YORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="img/washington.png" alt="" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- facilities -->
+
+    <section class="facilities" id="facilities">
+      <h1>Our facilities</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="img/library.png" alt="" />
+          <h3>World Class library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, unde.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/basketball.png" alt="" />
+          <h3>Largest Play Ground</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, unde.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/cafeteria.png" alt="" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, unde.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials" id="testimonials">
+      <h1>What Our Student Says</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, maiores.</p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="img/user1.jpg" alt="" />
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab debitis pariatur minima, dignissimos ad eius doloribus expedita accusamus saepe voluptates!</p>
+            <h3>Christine Berley</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-col">
+          <img src="img/user2.jpg" alt="" />
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab debitis pariatur minima, dignissimos ad eius doloribus expedita accusamus saepe voluptates!</p>
+            <h3>David Byer</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta" id="cta">
+      <h1>
+        Enroll For Our various Online Courses<br />
+        Anywhere From The World
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer" id="footer">
+      <h4 id="about-us">About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nostrum culpa consequuntur illum<br />
+        quod inventore! Blanditiis perspiciatis laborum illo deleniti!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by: Easy Tutorials</p>
+    </section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scriptJS.js"></script>
   </body>
 </html>
