@@ -1,21 +1,21 @@
 $(document).scroll(function () {
   var y = $(this).scrollTop();
-  if (y > 400) {
+  if (y > 50) {
     $("#course").fadeIn(5000);
   }
-  if (y > 900) {
+  if (y > 200) {
     $("#campus").fadeIn(5000);
   }
-  if (y > 1300) {
+  if (y > 800) {
     $("#facilities").fadeIn(5000);
   }
   if (y > 1600) {
     $("#testimonials").fadeIn(5000);
   }
-  if (y > 2000) {
+  if (y > 2200) {
     $("#cta").fadeIn(5000);
   }
-  if (y > 2300) {
+  if (y > 3000) {
     $("#footer").fadeIn(5000);
   }
 });
